@@ -70,8 +70,8 @@ Interacting with the smart contract:
 
 3. Input the address and value and click on the corresponding function buttons to execute our contract.
 
-Author
-Abhay Partap Singh Rana https://www.linkedin.com/in/abhay-rana-4520a5220
+Author: Abhay Partap Singh Rana 
+https://www.linkedin.com/in/abhay-rana-4520a5220
 
 License
 his project is licensed under the MIT License - see the LICENSE.md file for details. This code is licensed under the MIT License. You can find the license text in the SPDX-License-Identifier comment at the beginning of the contract.

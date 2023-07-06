@@ -22,7 +22,7 @@ contract ContractExample {
 
     function setValue(uint _value) public {
         // require statement
-        require(_value > 0, "Value must be greater than 0");
+        require(_value >= 10 && _value <= 100, "Value must be between 10 and 100");
 
         // assert statement
         assert(_value != 42);
@@ -35,6 +35,7 @@ contract ContractExample {
         value = _value;
     }
 }
+
 
 
 Functionality of Contract: 
@@ -56,7 +57,7 @@ d. 'Value Assignment': If all the checks pass, meaning none of the conditions tr
 It's important to note that this smart contract is a simplified example to demonstrate the usage of 'require()', 'assert()', and 'revert()' statements. 
 
 Compiling the Contract:
-.Use the Remix compiler panel to compile your smart contract. .Select the appropriate compiler version pragma solidity ^0.8.0;
+.Use the Remix compiler panel to compile your smart contract. Select the appropriate compiler version pragma solidity ^0.8.0;
 
 Deploying the Contract:
 1. Switch to the "Deploy & run transactions" tab in Remix.
